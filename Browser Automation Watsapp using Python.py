@@ -26,7 +26,7 @@ browser = webdriver.Chrome("C:\chromedriver")
 browser.get("https://web.whatsapp.com/")
 wait=WebDriverWait(browser,600)
 target='"Jaggu"'    #replace the EXACT name of your What's app contact name. 
-string="alright"
+string="alright"    #this will be your message you want to send
 x_arg= '//span[contains(@title, ' +target + ')]'
 target = wait.until(ec.presence_of_element_located((By.XPATH, x_arg)))
 target.click()
