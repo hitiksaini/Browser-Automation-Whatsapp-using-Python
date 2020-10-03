@@ -9,7 +9,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 
-browser = webdriver.Chrome("C:\chromedriver") 
+browser = webdriver.Chrome("C:\chromedriver") #set the path to chromedriver(wherever it is located) 
 browser.get("https://web.whatsapp.com/")   #opens whats app in the browser , scan the QR CODE TO PROCEED.
 wait=WebDriverWait(browser,600)     #leave it as it is
 target='"my_friend_name"'    #replace the EXACT name of your What's app contact name. 
