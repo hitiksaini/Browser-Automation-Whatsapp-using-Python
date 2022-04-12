@@ -1,5 +1,5 @@
 ## Browser-Automation-Whatsapp-using-Python
-### Project by [Hitik Saini](https://hitik20.tech/)
+
 This is a simple demonstration of using python in automation of browser and sending messages in bulk all at once in a single click.
 
 ### Dependencies
